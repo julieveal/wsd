@@ -1,0 +1,41 @@
+body { 
+	font: 10pt/1 arial;
+	color: #59453E;
+	background-color: #C8C8C8; 
+	background-color: hsl(0,0%,78%); 
+	}
+
+	h1 { 
+		text-indent:60px;
+		font-family: 'Lucida Grande';
+		font-weight: bold;
+		color: black;
+		background-color: #8FB6BF;
+		text-shadow: 4px 4px 14px #969696;
+		text-transform: uppercase;
+		letter-spacing: 0.1em
+		}
+
+	h2 {
+		text-align: center;
+		color: brown;
+		background-color: aliceblue;
+		text-shadow: 1px 1px 0px #000000;
+		}
+		
+	h3 {
+		font-family: 'Share Tech', sans-serif;
+		font-style: italic;
+		text-decoration:underline
+		}
+
+		a:link {color:#92A697;opacity: 1.0;}    /* unvisited link */
+		a:visited{color:#92A698}
+		a:hover{color:#0000cc}
+		a:active {color:#0000FF;}  /* selected link */
+		
+	p {
+		text-indent:40px;
+		line-height: 1.5em
+		}
+		
