@@ -43,12 +43,12 @@ body {
 		font-family: 'Share Tech', sans-serif;
 		font-style: italic;
 		text-align: center;
-		width: 530px; 
-		margin: 0px 200px 0px 200px; 
+		width: 510px; 
+		margin: 0px 150px 0px 200px; 
 		padding: 5px; 
 		background-color: #efefef;
 		box-shadow: 0 0 10px #777777;
-		z-index:-1;
+		z-index:4;
 		}
 
 		a:link {color:#92A697;opacity: 1.0;}    /* unvisited link */
@@ -63,9 +63,12 @@ body {
 		
 	ul {
 		list-style-type:circle;
-		margin: 3px 200px 0px 200px;
-		padding: 10px 0px 10px 240px;
+		margin: 0px 550px 0px 200px; 
+		padding: 5px;
 		background-color: #efefef;
+		border-bottom-right-radius: 1em;
+		border-bottom-left-radius: 1em;
+		width: 510px;
 		box-shadow: 0 0 8px #777777;
-		}
+		text-align: center;}
 		
