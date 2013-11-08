@@ -1,0 +1,74 @@
+body { 
+	font: 10pt/1 arial;
+	background-color: hsl(0,0%,78%); 
+	}
+
+	#page {
+		max-width: 940px;
+		min-width: 720px;
+		margin: 10px auto 10px auto;
+		padding: 20px;
+		border: 4px double #000;
+		background-color: #ffffff;		
+		box-shadow: 0 0 10px #777777;}
+	
+	ol {
+		display: block;
+		}
+				
+	h1 { 
+		text-align:center;
+		font-family: 'Lucida Grande';
+		font-weight: bold;
+		color: brown;
+		background-color: #8FB6BF;
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+		}
+
+	h2 {
+		text-align: center;
+		color: brown;
+		background-color: aliceblue;
+		box-shadow: 0 0 10px #777777;}
+		
+	h3 {
+		font-family: 'Share Tech', sans-serif;
+		font-style: italic;
+		text-align: center;
+		text-decoration:underline;
+		width: 230px; 
+		margin-left: 200px; 
+		margin-right: 200px;
+		margin-bottom: 0px; 
+		padding: 5px; 
+		background-color: #efefef;
+		box-shadow: 0 0 10px #777777;
+		}
+
+		a:link {color:#92A697;opacity: 1.0;}    /* unvisited link */
+		a:visited{color:#92A698}
+		a:hover{color: black}
+		a:active {color:#0000FF;}  /* selected link */
+		
+	p {
+		text-indent:40px;
+		line-height: 1.5em
+		}
+		
+	ul {
+		list-style-type:circle;
+		margin-bottom: 0px;
+		margin-left: 200px; 
+		margin-right: 200px;
+		padding-left: 240px;
+		padding-top: 10px;
+		padding-bottom: 10px; 
+		background-color: #efefef;
+		border-top: 3px solid #000; 
+		border-bottom: 1px solid #000;
+		border-right: 1px solid #000;
+		border-left: 1px solid #000;
+		box-shadow: 0 0 8px #777777;
+		}
+		
