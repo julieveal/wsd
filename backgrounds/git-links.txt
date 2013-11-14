@@ -1,7 +1,5 @@
-https://github.com/julieveal/wsd/tree/styling-text/week%203
+https://github.com/julieveal/wsd/blob/gh-pages/backgrounds/backgrounds.html
 
-https://github.com/julieveal/wsd/blob/styling-text/week%203/css/styles.css
+https://github.com/julieveal/wsd/blob/gh-pages/backgrounds/css/styles.css
 
-https://github.com/julieveal/wsd/blob/styling-text/week%203/layout.html
-
-layout.html
+backgrounds.html
