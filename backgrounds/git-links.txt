@@ -1,0 +1,7 @@
+https://github.com/julieveal/wsd/tree/styling-text/week%203
+
+https://github.com/julieveal/wsd/blob/styling-text/week%203/css/styles.css
+
+https://github.com/julieveal/wsd/blob/styling-text/week%203/layout.html
+
+layout.html
