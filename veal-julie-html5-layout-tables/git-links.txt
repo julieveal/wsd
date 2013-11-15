@@ -1,5 +1,5 @@
-https://github.com/julieveal/wsd/blob/gh-pages/backgrounds/backgrounds.html
+https://github.com/julieveal/wsd/blob/gh-pages/veal-julie-html5-layout-tables/html5-layout-tables.html
 
-https://github.com/julieveal/wsd/blob/gh-pages/backgrounds/css/styles.css
+https://github.com/julieveal/wsd/blob/gh-pages/veal-julie-html5-layout-tables/css/styles.css
 
-backgrounds.html
+html5-layout-tables.html
