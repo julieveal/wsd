@@ -72,22 +72,28 @@
 	table { 
 		float: left; 
 		width: 30%; 
-		margin: 0px 0px 0px 10px;
-		color: brown;
+		margin: 0px 0px 20px 20px;
+		border: 1px solid #111111; 
+		text-align: center;
 		}
 		
 		th, td { 
 		padding: 7px 10px 10px 10px;
 		}
 		
-		th { text-transform: uppercase; 
-		letter-spacing: 0.1em; 
-		font-size: 90%; 
-		border: 1px solid #111111; 
-		text-align: center;
+		td {
+		border-spacing: 7px;
 		}
 		
-		tr.even { 
+		th { 
+		text-transform: uppercase; 
+		letter-spacing: 0.1em; 
+		font-size: 90%; 
+		color: brown;
+		border-collapse: collapse;
+		}
+		
+		tr{ 
 		background-color: #efefef;
 		}
 		
