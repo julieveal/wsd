@@ -4,6 +4,8 @@
 	
 	body { 
 	font: 0.813em/1 arial;
+	background-image: url("images/cranberry.gif");
+	background-repeat: repeat;
 	}
 
 	#page {
@@ -34,7 +36,6 @@
 		text-transform: uppercase;
 		letter-spacing: 0.1em;
 		width: 94%;
-		
 		}
 		
 	.column1of2 { 
@@ -51,7 +52,7 @@
 		padding: 5px 0px 5px 0px;
 		}
 		
-		.column2of2 { 
+	.column2of2 { 
 		float: left; 
 		width: 25%; 
 		margin: 20px;
@@ -65,12 +66,12 @@
 	
 	#footer{
 		margin: 0px 50px 0px 0px; 
-		padding: 5px;
-		background: linear-gradient(to right, orange, red, black);
-		
+		padding: 5px;		
 		border-bottom-right-radius: 1em;
 		border-bottom-left-radius: 1em;
 		width: 92%;
+		background-image: url("images/cranberry.gif");
+		background-repeat: repeat;
 		box-shadow: 0 0 8px #777777;
 		text-align: center;
 		color: white;
