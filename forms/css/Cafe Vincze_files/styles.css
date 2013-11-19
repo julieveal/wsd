@@ -7,11 +7,11 @@
 		margin-bottom: 10px;
 	}
 	
-	body { 
-		font: 0.613em/1 arial;
-		background-image: url(../images/cranberry.gif);
-		background-repeat: repeat;
-		}
+	body {
+	font: 0.613em/1 arial;
+	background-image: url(../images/cranberry.gif);
+	background-repeat: repeat;
+	}
 
 	#page {
 		max-width: 740px;
@@ -19,7 +19,7 @@
 		margin: 50px auto 50px auto;
 		padding: 10px 25px 20px 25px;
 		border: 4px double #000;
-		background-color: #dad7cb;		
+		background-color: #f2f2f2;		
 		box-shadow: 0 0 10px #777777;
 		
 	}
@@ -111,7 +111,7 @@
 		width: 98%;
 		box-shadow: 0 0 8px #777777;
 		text-align: center;
-		background-color: #FBFFDC;
+		background-color: lightblue;
 		color: white;
 		clear: both;
 		}	

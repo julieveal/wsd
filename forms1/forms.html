@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Forms</title>
+		<link rel="stylesheet" href="css/styles.css" />
+	</head>
+	<body>
+		<div id="page">
+			<div id="logo">
+				<img src="images/logo.png" alt="Cafe Vincze" />
+			</div>
+			<ul id="navigation">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Menu</a></li>
+				<li><a href="#">Location</a></li>
+				<li><a href="#">Gallery</a></li>
+				<li><a href="#" id="current-page">Contact</a></li>
+			</ul>
+			<div id="contact_content">
+				<h1>Contact</h1>
+					<form action="http://www.example.com/form.php" method="post"> 
+							<input type="file" name="user-recipe" />
+							<br />
+							<input type="submit" value="Upload" />
+							<br><br/> <br><br/>
+						<fieldset> 
+							<legend>Join our email list
+							</legend> 
+							<p>
+							<label>Your Name:<br /> 
+								<input type="text" name="email" class id="title" />
+								</label><br /> 
+						
+							<label>Your Email:<br /> 
+								<input type="text" name="email" class id="title" />
+							</label><br /> 
+						
+							</p>
+								<label>Birthday Month:<br /> 
+								<input type="text" name="birthday" class id="title" />
+								</label><br />
+								<select name="Birthday Month:" class id="title">
+									<option value="1">January</option> 
+									<option value="2">February</option> 
+									<option value="3">March</option>
+									<option value="4">April</option>
+									<option value="5">May</option>
+									<option value="6">June</option>
+									<option value="7">July</option>
+									<option value="8">August</option>
+									<option value="9">September</option>
+									<option value="10">October</option>
+									<option value="11">November</option>
+									<option value="12">December</option>
+								</select>
+							<p>
+					</fieldset>
+			<div id="submit">
+					<form action="http://www.example.org/profile.php"> 
+						<p>Register:</p> 
+						<input type="url" name="website" /> <input type="submit" value="Submit" />
+</form>		
+					
+			</div><!-- /contact_content -->
+		</div><!-- /page -->
+	</body>
+</html>
