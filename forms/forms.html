@@ -23,40 +23,42 @@
 					<li><a href="#food">The Food </a></li>
 					</ol>
 				</nav>
-					<p align="center"> <img src="images/logo.png" alt="logo" width="350px" />
+				<p>	<img src="images/logo.png" alt="logo" 
+                    class="align-center" width="350">
+               </p>
 			</header>
 			
 			<article>
 				
 				<br>
-					
+				<form action="http://www.example.com/login.php"> 
+							<p>Username:
+								<input type="text" name="username" size="15" maxlength="30" placeholder="username" required/>
+							</p>
+							<p>Password:
+								<input type="password" name="password" size="15" maxlength="30" placeholder="password" required/>
+							</p> 
+						</form>	
 				<div id="contact_content">
 				<h1>Contact</h1>
 				
-					<br><br/> <br><br/>
-						<form action="http://www.example.com/login.php"> 
-							<p>Username:
-								<input type="text" name="username" size="15" maxlength="30" placeholder="username" required="required"/>
-							</p>
-							<p>Password:
-								<input type="password" name="password" size="15" maxlength="30" placeholder="password" required="required"/>
-							</p> 
-						</form>
+					<br><br/>
+						
 					<fieldset> 
 							<legend>Join our email list</legend> 
 							<p>
 							<label>Your Name:<br /> 
-								<input type="text" name="email" class id="title" placeholder="name"/>
+								<input type="text" name="email"  placeholder="name"/>
 								</label><br /> 
 						
 							<label>Your Email:<br /> 
-								<input type="text" name="email" class id="title" placeholder="email"/>
+								<input type="text" name="email"  placeholder="email"/>
 							</label><br /> 
 							</p>
 								<label>Birthday Month:<br /> 
 								
 								</label><br />
-								<select name="Birthday Month:" class id="title">
+								<select name="Birthday Month:" class id="month">
 									<option value="1">January</option> 
 									<option value="2">February</option> 
 									<option value="3">March</option>
@@ -75,20 +77,22 @@
 					<fieldset>
 						<legend>Tell Us How We did:</legend>
 							 <p>
-							<textarea name="comments" cols="50" rows="5.5">Enter your comments here...</textarea> 
+							<textarea name="comments" cols="50" rows="5
+							"> Enter your comments here...</textarea> 
 						</p>
 
 						<form action="http://www.example.com/profile.php"> 
 							<p>What would you like to see more of:
 							<br /> 
-							<input type="radio" name="genre" value="rock" checked="checked" /> Bands 
-							<input type="radio" name="genre" value="pop" /> Happy Hours 
-							<input type="radio" name="genre" value="jazz" /> Bingo Nights
+							<input type="radio" name="genre" value="bands" checked="checked" /> Bands 
+							<input type="radio" name="genre" value="happy hours" /> Happy Hours 
+							<input type="radio" name="genre" value="bingo nights" /> Bingo Nights
 							</p> 
 						</form>
 					</fieldset>
-					<br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
-					<div id="submit">
+					
+					</div>
+                    <div id="submit">
 						<input type="submit" name="submit" value="Submit" />
 						
 					</div>
@@ -96,7 +100,7 @@
 		
 			<footer>		
 				<div id="footer">
-					<p>For our Menu <a href="http://en.wikipedia.org/wiki/2013_Melbourne_Cup" target="_blank">click here.</a></b></p>
+					<p>For our Menu <a href="http://en.wikipedia.org/wiki/2013_Melbourne_Cup" target="_blank">click here.</a></p>
 					<p><a href="#top">Back to top.</a></p>
 				</div>
 			</footer>	
