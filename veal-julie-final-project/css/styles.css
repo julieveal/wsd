@@ -1,0 +1,219 @@
+	section, aside, nav, article, figure, figcaption 
+	{
+		display: block;
+	}
+<!-- main content -->		
+
+	header{
+		margin-bottom: 10px;
+		position: fixed;
+	}
+	
+	p.username{
+		float: right;
+	}
+	
+	p.password{
+		float: right;
+	}
+		
+	body {
+		font: 0.813em/1 arial;
+		background-image: url(../images/pattern.jpeg) ;
+		background-repeat: repeat;
+		background-position: -2px;
+	}
+	
+	@font-face {
+		font-family: Gentium;
+		src: url(fonts/gentium.otf); 
+	}
+	
+	#page {
+		max-width: 740px;
+		min-width: 400px;
+		margin: 20px;
+		padding: 10px 25px 20px 25px;
+		border: 4px double #000;
+		background-color: white;		
+		box-shadow: 0 0 10px #777777;
+		border-bottom-right-radius: 1em;
+		border-bottom-left-radius: 1em;
+		border-top-right-radius: 1em;
+		border-top-left-radius: 1em;
+	}
+	
+	li {
+		display: inline; 
+		padding: 20px;
+		text-decoration: none;
+	}
+	
+	.bb{
+		float:left;
+		margin: 70px 50px auto 30px;
+		padding: 0;
+	}
+	
+	.logo{
+		float: left;
+		margin: 50px 20px 0px 100px;
+		padding: 0;
+	}
+	
+	h1 {
+		color: #cf0072;
+		float: left;
+		font-weight: bold;
+		font-style: italic;
+		text-align: center;
+		font-size: 260%;
+		text-shadow: 0px 1px 3px #0f0f0f;
+		line-height: 120%;
+	}
+
+	h2 { 
+		padding: 5px 0px 5px 0px;
+		text-align:center;
+		font-family: 'Lucida Grande';
+		font-weight: bold;
+		color: black;
+		letter-spacing: 0.1em;
+		width: auto;
+		clear: both;
+		background-color: #cf0072;
+		opacity: .8;
+	}
+	
+	blockquote { 
+		float: right;
+		width: 200px; 
+		font-size: 100%; 
+		font-style: italic; 
+		font-family: Georgia, Times, serif; 
+		margin: 0px 0px 10px 10px; 
+		padding: 5px;
+		border-top: 1px solid #665544; 
+		border-bottom: 1px solid #665544;
+	}
+
+	.column1of2 { 
+		float: left; 
+		width: 40%; 
+		margin: 0px 0px 0px 20px;
+		clear: left;
+	}
+	
+	.column2of2 { 
+		float: left; 
+		width: 30%; 
+		margin: 12px 0px 0px 10px;
+		padding: 5px;
+	}
+	
+	p{
+		line-height: 1.4em;	
+	}	
+
+	table { 
+		float: left; 
+		width: 150px; 
+		height: 50px;
+		margin: 0px 0px 20px 20px;
+		border: 1px solid #111111; 
+		text-align: center;
+		background-image: -moz-linear-gradient(#cf0072, #f2f2f2);
+		background-image: -webkit-linear-gradient(#cf0072, #f2f2f2);
+		padding: 2px;
+	}
+		
+	th, td { 
+		padding: 7px 10px 10px 10px;
+	}
+		
+	td {
+		border-spacing: 7px;
+		padding: 5px;
+		font-size: 75%;
+	}
+		
+	th { 
+		text-transform: uppercase; 
+		letter-spacing: 0.1em; 
+		font-size: 90%; 
+		color: brown;
+		border-collapse: collapse;
+	}
+		
+	tr{ 
+		background-color: #efefef;
+	}
+		
+	tr:hover { 
+		background-color: #c3e6e5;
+	}
+		
+<!-- forms -->		
+
+	fieldset{
+		width: 25%;
+		float: left;
+		color: black;
+		margin: 0 0 25px 0;
+		padding: 20px;
+		font-size: 70%;
+	}
+	
+	#submit{
+		clear: both;
+		background-image: url(../images/button.jpg);
+		background-repeat: no-repeat;
+		background-position: left;
+		height:100%;
+		width: 100%;
+		margin: 15px 0 0 5px;
+		border: none;
+		text-align: left;
+	}	
+	
+	.input {
+    	border: 1px solid #cf0072;
+    	background: #ffc;
+	}
+
+	.input:hover {
+    	border: 1px solid #f00;
+    	background: #ff6;
+	}
+
+	input:focus{
+		background-color:#cf0072;
+	}
+		
+<!-- navigation  -->	
+	
+	a:link { 
+		color: green; 
+		text-decoration: none;
+	}
+	
+	a:visited { 
+		color: black;
+	}
+	
+	a:hover { 
+		color: #cf0072; 
+		text-decoration: underline;
+	}
+	
+	a:active { 
+		color: green;
+	}
+	
+	#footer{
+		margin: 20px 0 0 20px;
+		padding: 12px 0 0 0;		
+		text-align: center;
+		color: #cf0072;
+		clear: both;
+	}	
